@@ -1,0 +1,35 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Raw and processed datasets
+data/
+data/raw/
+data/processed/
+
+# Generated model artifacts
+artifacts/
+models/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+
+# Environment variables and local configuration
+.env
+.env.*
+!.env.example
+
+# Existing project-local files
+tasks.md

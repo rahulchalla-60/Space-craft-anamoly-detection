@@ -49,7 +49,7 @@ def parse_list(value):
 
 
 df["intervals"] = df["anomaly_sequences"].apply(parse_list)
-df["classes"] = df["class"].apply(parse_list)
+df["classes"] = df["class"].apply(parse_classes)
 
 
 # --------------------------------------------------
